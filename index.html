@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="calculator">
-        <input type="text" placeholder="0">
+        <input type="text" placeholder="0" id="inputBox">
         
         <div>
             <button>AC</button>
@@ -28,26 +28,28 @@
             <button>4</button>
             <button>5</button>
             <button>6</button>
-            <button>-</button>
+            <button class="operator">-</button>
         </div>
 
         <div>
             <button>1</button>
             <button>2</button>
             <button>3</button>
-            <button>+</button>
-            <button>%</button>
-            <button>/</button>
+            <button class="operator">+</button>
+            <button class="operator">%</button>
+            <button class="operator">/</button>
         </div>
 
         <div>
             <button>00</button>
             <button>0</button>
             <button>.</button>
-            <button>=</button>
+            <button class="equal">=</button>
         </div>
 
     </div>
     
+
+    <script src="script.js"></script>
 </body>
 </html
